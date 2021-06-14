@@ -244,7 +244,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Docker PS](https://github.com/Winnie-Monu/Project/blob/Edits/docker-ps%20output.docx)
+![](https://github.com/Winnie-Monu/Project/blob/Edits/docker-ps%20output.docx)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -256,7 +256,7 @@ We have installed the following Beats on these machines:
 - Metric Beat
 
 These Beats allow us to collect the following information from each machine:
-- Filebeat is a log data shipper for locak files. Installed as an agent on your servers, filebeat monitors the log directories or specific log files, monitors the files and forwards the files either to Elasticsearch or Logstach for indexing. An example, are the logs produced the MySQL database supporting our application.
+- Filebeat is a log data shipper for local files. Installed as an agent on servers, filebeat monitors the log directories or specific log files, monitors the files and forwards the files either to Elasticsearch or Logstach for indexing. An example, are the logs produced the MySQL database supporting our application.
 - Metricbeat collects metrics and statistics on the system. An example of such is cpu usage, which can be used to monitor the system health.
 
 ### Using the Playbook
